@@ -3,7 +3,7 @@
   <metadata>
     <id>glasswire</id>
     <title>GlassWire</title>
-    <version>2.2.201</version>
+    <version>2.2.241</version>
     <authors>GlassWire</authors>
     <owners>MANICX100, dtgm</owners>
     <summary>Firewall and network monitor that visualizes network data over time to assist in malware discovery</summary>
