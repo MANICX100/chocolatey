@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>yabause</id>
+    <title>Yabause</title>
+    <version>2.3.1</version>
+    <authors>devmiyax</authors>
+    <owners>MANICX100</owners>
+    <summary>Yabause is a Sega Saturn emulator and took over as Yaba Sanshiro</summary>
+    <description>
+A SEGA Saturn emulator under active development. Plays most commerical games to some degree.
+</description>
+<packageSourceUrl>https://github.com/devmiyax/yabause/</packageSourceUrl>
+    <projectUrl>https://github.com/devmiyax/yabause/</projectUrl>
+    <bugTrackerUrl>https://github.com/devmiyax/yabause/issues</bugTrackerUrl>
+    <iconUrl>http://www.uoyabause.org/system/blogs/title_images/000/000/046/original/banner.png</iconUrl>
+    <licenseUrl> https://opensource.org/licenses/GPL-2.0</licenseUrl>
+    <tags>sega saturn sega-saturn yabause emulator</tags>
+    <releaseNotes>
+http://www.uoyabause.org/blogs    
+</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

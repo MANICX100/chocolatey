@@ -1,0 +1,15 @@
+Note: Include this file if including binaries you have the right to distribute. 
+Otherwise delete. this file. If you are the software author, you can change this
+mention you are the author of the software.
+
+The installer can be downloaded from their official download link (unreal-speccy-portable_0.0.57_win32.msi) listed on <https://bitbucket.org/djdron/unrealspeccyp/downloads/>
+and can be verified using a tool such as http://implbits.com/products/hashtab/ 
+After install right click and go to properties, file hashes
+
+CRC32: 1631CB4C
+MD5: FE59AA7FC825A18B35C1997DF29A1117
+SHA-256: E05158A8E18E2CAAB6CC355DCE6D4F3F28CBE7C149E9F253EC5B8796914505DA
+SHA3-256: 195A9C952A274646F377CB154568AB9B6F2A4F33CE079224939F33C7BDFDC1A4
+
+Right to distribute under its use of GPLv3 see: https://bitbucket.org/djdron/unrealspeccyp/src/master/LICENSE
+File 'LICENSE.txt' is obtained from <https://www.gnu.org/licenses/gpl.txt>
