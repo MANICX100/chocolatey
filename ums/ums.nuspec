@@ -3,7 +3,7 @@
   <metadata>
     <id>ums</id>
     <title>Universal Media Server</title>
-    <version>9.8.3</version>
+    <version>10.0.0</version>
     <authors>SubJunk</authors>
     <owners>dtgm, MANICX100</owners>
     <summary>DLNA-compliant UPnP Media Server</summary>
