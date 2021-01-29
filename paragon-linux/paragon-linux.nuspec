@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">  
+  <metadata>
+    <id>paragon-linux</id>
+    <title>Paragon Linux</title>
+    <version>1.0.0</version>
+    <authors>Paragon Software</authors>
+    <owners>MANICX100</owners>
+    <summary>Mount Linux drives natively in windows (Trial)</summary>
+    <description>
+Linux File Systems for Windows by Paragon Software is a unique tool which gives you full access to Linux volumes within Windows.
+
+Just plug your hard disk with ExtFS/Btrfs/XFS partitions into your PC and instantly work with any media on the Linux partitions.
+    </description>
+    <projectUrl>https://www.paragon-software.com/home/linuxfs-windows/</projectUrl>
+    <iconUrl>https://www.paragon-software.com/wp-content/themes/paragon_3_test/image/Logo.svg</iconUrl>
+    <tags>ext2 ext3 ext4 btrfs xfs linux fuse file-system fs</tags>
+    <copyright>Paragon Software</copyright>
+    <licenseUrl>https://www.paragon-software.com/eula/</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* [News](https://blog.paragon-software.com/)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

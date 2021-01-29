@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">  
+  <metadata>
+    <id>paragon-apfs</id>
+    <title>Paragon APFS</title>
+    <version>1.0.0</version>
+    <authors>Paragon Software</authors>
+    <owners>MANICX100</owners>
+    <summary>Mount Apple APFS drives natively in windows (Trial)</summary>
+    <description>
+Apple File System (APFS) is a new file system for macOS, iOS, and Apple devices. If you work on a Windows-based computer and want to read and write files on APFS-formatted HDD, SSD or flash drive, you need APFS for Windows by Paragon Software.
+
+New! Supports APFS volumes created in macOS 10.15 Catalina
+New! Detects volumes encrypted by FileVault
+    </description>
+    <projectUrl>https://www.paragon-software.com/home/apfs-windows/</projectUrl>
+    <iconUrl>https://www.paragon-software.com/wp-content/themes/paragon_3_test/image/Logo.svg</iconUrl>
+    <tags>APFS fuse file-system fs</tags>
+    <copyright>Paragon Software</copyright>
+    <licenseUrl>https://www.paragon-software.com/eula/</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* [News](https://blog.paragon-software.com/)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">  
+  <metadata>
+    <id>paragon-HFS</id>
+    <title>Paragon HFS</title>
+    <version>1.0.0</version>
+    <authors>Paragon Software</authors>
+    <owners>MANICX100</owners>
+    <summary>Mount Apple HFS+ drives natively in windows (Trial)</summary>
+    <description>
+HFS+ is one of the primary file systems of macOS. If you work on Windows computer and need to read or write files from HDD, SSD or flash drive formatted under macOS, you need HFS+ for Windows by Paragon Software.
+
+For use with drives created in macOS 10.12 or below.
+    </description>
+    <projectUrl>https://www.paragon-software.com/home/hfs-windows/</projectUrl>
+    <iconUrl>https://www.paragon-software.com/wp-content/themes/paragon_3_test/image/Logo.svg</iconUrl>
+    <tags>HFS+ fuse file-system fs</tags>
+    <copyright>Paragon Software</copyright>
+    <licenseUrl>https://www.paragon-software.com/eula/</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* [News](https://blog.paragon-software.com/)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

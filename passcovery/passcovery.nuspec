@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">  
+  <metadata>
+    <id>passcovery</id>
+    <title>Passcovery</title>
+    <version>1.0.0</version>
+    <authors>Paragon Software</authors>
+    <owners>MANICX100</owners>
+    <summary>Effective software solutions to the problem of lost or forgotten passwords</summary>
+    <description>
+Recover passwords of popular file formats:
+Microsoft Office, OpenOffice/LibreOffice and Adobe PDF documents
+RAR/WinRAR and Zip/WinZip archives
+Apple iOS, BlackBerry OS backup files
+TrueCrypt volumes
+WPA/WPA2 "handshakes"
+Guaranteed high speed while searching password with strong protection
+Flexible range customization options
+Acceleration on NVIDIA and/or AMD graphics cards
+    </description>
+    <projectUrl>https://passcovery.com/</projectUrl>
+    <iconUrl>https://passcovery.com/img/passcovery256_white.png</iconUrl>
+    <tags>password recovery crack rar zip ios blackberry pdf doc ppt xls wpa wpa2 amd nvidia</tags>
+    <copyright>Passcovery</copyright>
+    <licenseUrl>https://passcovery.com/manuals/Passcovery%20Suite/license.htm</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* [News](https://passcovery.com/news/)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
