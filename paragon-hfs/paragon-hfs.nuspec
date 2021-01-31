@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">  
   <metadata>
-    <id>paragon-HFS</id>
-    <title>Paragon HFS</title>
+    <id>paragon-hfs</id>
+    <title>Paragon hfs</title>
     <version>1.0.0</version>
     <authors>Paragon Software</authors>
     <owners>MANICX100</owners>
