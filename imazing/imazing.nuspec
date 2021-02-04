@@ -20,6 +20,9 @@ iMazing is mobile device management software that allows users to transfer files
 #### Program
 * [News](https://imazing.com/blog)
     </releaseNotes>
+	<dependencies>
+      <dependency id="dotnetfx" />
+    </dependencies>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
