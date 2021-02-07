@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>reWASD</id>
+    <title>ReWASD</title>
+    <version>562.3544</version>
+    <authors>Disc Soft Ltd</authors>
+    <owners>MANICX100</owners>
+    <summary>Powerful Gamepad mapper</summary>
+    <description>
+	When playing games with Xbox, Nintendo or DualShock controller on PC, you know plenty of apps to provide joystick support, customize the existing layout or to tune hardware settings (Xbox Accessories app, Joy2key, Xpadder, AntiMicro, etc.). Unfortunately, most of them are useless if you try to get all those keyboard advantages with controller and one app. Do you agree it would be awesome to use a joystick mapper that sums all the existing remapping features? We've got one!
+
+reWASD is a joystick remapper that supports every official version of Xbox Controller (360, One, Elite, Elite 2), Dualshock 3, Dualshock 4, Nintendo Switch Pro, Joy-Cons controllers, all keyboards and mice. Here are 6 reasons to prove, there’s no better app to customize your devices than reWASD!
+	</description>
+    <projectUrl>https://www.rewasd.com/</projectUrl>
+    <tags>rewasd remap</tags>
+    <licenseUrl>https://www.rewasd.com/</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://www.rewasd.com/assets/1e758f937d25055a15119a7ef06f5d35.png</iconUrl>
+    <releaseNotes>
+[Software Changelog](https://www.rewasd.com/blog)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
