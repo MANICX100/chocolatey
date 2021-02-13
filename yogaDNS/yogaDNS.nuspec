@@ -4,8 +4,8 @@
     <id>YogaDNS</id>
     <title>YogaDNS - DNS log and manager</title>
     <version>1.1.6</version>
-    <authors>Crystal Idea</authors>
-    <owners>chocolatey-community,Rob Reynolds</owners>
+    <authors>Initex</authors>
+    <owners>MANICX100</owners>
     <summary>The Most Advanced DNS Client for Windows</summary>
     <description>
 	YogaDNS automatically intercepts DNS requests at the system level and allows you to process them over user-defined DNS servers using modern protocols and flexible rules.

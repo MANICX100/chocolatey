@@ -3,9 +3,9 @@ $installerType = 'exe'
 $silentArgs = '/VERYSILENT'
 $toolsDir     = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 $url = 'https://downloads.imazing.com/windows/iMazing/iMazing2forWindows.exe'
-$checksum = '3C7BBEA5C2DBAB2E8BEAAE3797E639155BA9FFF33DD316EE47DCF32E3BFA28E8'
+$checksum = 'E96C3B41BA0F94202C7CFE36FED25286223532A8F04526422C08D3C11E976D33'
 $checksumType = 'sha256'
-$validExitCodes = @(0,1116)
+$validExitCodes = @(0)
  
 Install-ChocolateyPackage -PackageName "$packageName" `
                           -FileType "$installerType" `
