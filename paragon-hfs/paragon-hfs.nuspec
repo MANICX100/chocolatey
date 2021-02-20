@@ -13,8 +13,9 @@ HFS+ is one of the primary file systems of macOS. If you work on Windows compute
 For use with drives created in macOS 10.12 or below.
     </description>
     <projectUrl>https://www.paragon-software.com/home/hfs-windows/</projectUrl>
+	<packageSourceUrl>https://github.com/MANICX100/chocolatey/tree/master/paragon-hfs</packageSourceUrl>
     <iconUrl>https://www.paragon-software.com/wp-content/themes/paragon_3_test/image/Logo.svg</iconUrl>
-    <tags>HFS+ fuse file-system fs</tags>
+    <tags>HFS+ fuse file-system fs trial</tags>
     <copyright>Paragon Software</copyright>
     <licenseUrl>https://www.paragon-software.com/eula/</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

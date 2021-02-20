@@ -14,8 +14,9 @@ New! Supports APFS volumes created in macOS 10.15 Catalina
 New! Detects volumes encrypted by FileVault
     </description>
     <projectUrl>https://www.paragon-software.com/home/apfs-windows/</projectUrl>
+	<packageSourceUrl>https://github.com/MANICX100/chocolatey/tree/master/paragon-apfs</packageSourceUrl>
     <iconUrl>https://www.paragon-software.com/wp-content/themes/paragon_3_test/image/Logo.svg</iconUrl>
-    <tags>APFS fuse file-system fs</tags>
+    <tags>APFS fuse file-system fs trial</tags>
     <copyright>Paragon Software</copyright>
     <licenseUrl>https://www.paragon-software.com/eula/</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

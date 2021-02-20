@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">  
+  <metadata>
+    <id>ivcam</id>
+    <title>IVCam - Use phone camera on PC</title>
+    <version>6.1.9</version>
+    <authors>E2Soft</authors>
+    <owners>MANICX100</owners>
+    <summary>Why buy a webcam since you already have a Mobile Phone or Pad?</summary>
+    <description>
+	iVCam turns your Phone/Pad into an HD webcam for Windows PC, which has a much better quality than most webcams and is compatible with all webcam-enabled applications. Replace your USB webcam or integrated webcam now with your Phone/Pad! It’s also a perfect baby monitor, spy-cam, security camera and pet-cam.
+    </description>
+    <projectUrl>https://www.e2esoft.com/ivcam/</projectUrl>
+	<packageSourceUrl>https://github.com/MANICX100/chocolatey/tree/master/icam</packageSourceUrl>
+    <iconUrl>https://www.e2esoft.com/wp-content/uploads/2017/02/e2e_icon-200x200.png</iconUrl>
+    <tags>webcam ios android camera-on-pc</tags>
+    <copyright>E2Soft</copyright>
+    <licenseUrl>https://www.e2esoft.com/ivcam/</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* [News](https://www.e2esoft.com/ivcam/)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
