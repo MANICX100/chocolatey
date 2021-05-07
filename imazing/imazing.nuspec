@@ -3,7 +3,7 @@
   <metadata>
     <id>imazing</id>
     <title>imazing</title>
-    <version>2.13.2</version>
+    <version>2.13.8</version>
     <authors>DigiDNA</authors>
     <owners>MANICX100</owners>
     <summary>iMazing is mobile device management software that allows users to transfer files and data between iOS devices Computers without the limitations of iTunes.</summary>
@@ -21,10 +21,7 @@ iMazing is mobile device management software that allows users to transfer files
 * [News](https://imazing.com/blog)
     </releaseNotes>
 	<dependencies>
-      <dependency id="dotnet" />
 	  <dependency id="dotnetfx" />
-	  <dependency id="dotnet4.6" />
-	  <dependency id="dotnet3.5" />
     </dependencies>
   </metadata>
   <files>
