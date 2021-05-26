@@ -15,8 +15,6 @@ Integration with Explorer and Apple Finder
 	</description>
     <projectUrl>https://crystalidea.com/anytoiso</projectUrl>
     <tags>iso dmg img convert</tags>
-    <licenseUrl>https://github.com/crystalidea/anytoiso</licenseUrl>
-	<requireLicenseAcceptance>false</requireLicenseAcceptance>
 	<packageSourceUrl>https://github.com/MANICX100/chocolatey/tree/master/anytoiso</packageSourceUrl>
     <iconUrl>https://crystalidea.com/assets/images/anytoiso/icon_32.png</iconUrl>
     <releaseNotes>
