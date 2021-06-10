@@ -3,7 +3,7 @@ $installerType = 'exe'
 $silentArgs = '/S'
 $toolsDir     = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 $url = 'https://download.glasswire.com/GlassWireSetup.exe'
-$checksum = '5FA30D44AF5B8E4EF55044A01DDC50FC66286DB041B385FF20A3D5EEBFFE8974'
+$checksum = '0581FD6157C14C4B4DD0C770DF2815EF2E9C077D346DC91A4AF0952A934314A2'
 $checksumType = 'sha256'
 $validExitCodes = @(0)
  
