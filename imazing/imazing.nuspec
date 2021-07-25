@@ -3,7 +3,7 @@
   <metadata>
     <id>imazing</id>
     <title>imazing</title>
-    <version>2.13.9</version>
+    <version>2.13.10</version>
     <authors>DigiDNA</authors>
     <owners>MANICX100</owners>
     <summary>iMazing is mobile device management software that allows users to transfer files and data between iOS devices Computers without the limitations of iTunes.</summary>
@@ -11,6 +11,7 @@
 iMazing is mobile device management software that allows users to transfer files and data between iOS devices Computers without the limitations of iTunes.
     </description>
     <projectUrl>https://imazing.com/</projectUrl>
+	<packageSourceUrl>https://github.com/MANICX100/chocolatey/tree/master/imazing</packageSourceUrl>
     <iconUrl>https://imazing.com/img/imazing-logo.svg</iconUrl>
     <tags>ios imazing itunes</tags>
     <copyright>DigiDNA</copyright>
