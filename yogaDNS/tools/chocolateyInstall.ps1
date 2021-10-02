@@ -3,7 +3,7 @@ $installerType = 'exe'
 $silentArgs = '/VERYSILENT'
 $toolsDir     = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 $url = 'https://yogadns.com/download/YogaDNSSetup.exe'
-$checksum = 'F2B7D1BA65A996571E2F624F5CDF668D85EEECE410DB611C48AB793AEFAFB45F'
+$checksum = '29CC7E146C4EBF6010E5F188325551BBC21604B7FD669AD1FD1EA3A1D4EC5814'
 $checksumType = 'sha256'
 $validExitCodes = @(0)
  
