@@ -2,8 +2,8 @@ $packageName = 'Lagrange'
 $installerType = 'exe'
 $silentArgs = '/VERYSILENT'
 $toolsDir     = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url = 'https://github.com/skyjake/lagrange/releases/download/v1.7.3/lagrange_v1.7.3_windows-x64_setup.exe'
-$checksum = '4833C3A7B48B2020AA3BAA6FE57930442A190BAEB4E487F3FBE02B44D088516B'
+$url = 'https://github.com/skyjake/lagrange/releases/download/v1.10.3/lagrange_v1.10.3_windows-x64_setup.exe'
+$checksum = '06836CD75E8BDD1790F6DCF3211700302F59D9059793F0D8174DAF5E8356E3FB'
 $checksumType = 'sha256'
 $validExitCodes = @(0)
  
