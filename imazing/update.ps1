@@ -21,7 +21,7 @@ function global:au_GetLatest {
 
     $tempFile = New-TemporaryFile
     Invoke-WebRequest -Uri $downloadUrl -OutFile $tempFile
-    $softwareVersion = $tempFile.VersionInfo.ProductVersion
+    $softwareVersion = $tempFile.VersionInfo.ProductVersion.Trim()
     Remove-Item -Path $tempFile -Force
 
     return @{ 
