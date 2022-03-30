@@ -12,7 +12,7 @@ iMazing is mobile device management software that allows users to transfer files
     </description>
     <projectUrl>https://imazing.com/</projectUrl>
 	<packageSourceUrl>https://github.com/MANICX100/chocolatey/tree/master/imazing</packageSourceUrl>
-    <iconUrl>https://imazing.com/img/imazing-logo.svg</iconUrl>
+    <iconUrl>https://rawcdn.githack.com/MANICX100/chocolatey/e8893bd51ebbba471b4745262326770198db04d7/imazing/logo.svg</iconUrl>
     <tags>ios imazing itunes</tags>
     <copyright>DigiDNA</copyright>
     <licenseUrl>https://imazing.com/licensing-policy</licenseUrl>
