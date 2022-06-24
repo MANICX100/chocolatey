@@ -22,12 +22,14 @@ function global:au_GetLatest {
     $tempFile = New-TemporaryFile
     Invoke-WebRequest -Uri $downloadUrl -OutFile $tempFile
     $softwareVersion = $tempFile.VersionInfo.ProductVersion.Trim()
+    $checksum = (Get-FileHash -Path $tempFile -Algorithm SHA256).Hash.ToLower()
     Remove-Item -Path $tempFile -Force
 
     return @{ 
         Url32 = $downloadUrl;
+        Checksum32 = $checksum
         Version = $softwareVersion
     }
 }
 
-Update-Package -ChecksumFor 32 -NoReadme
+Update-Package -ChecksumFor None -NoReadme
