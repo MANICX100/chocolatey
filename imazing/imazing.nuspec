@@ -11,7 +11,7 @@
 iMazing is mobile device management software that allows users to transfer files and data between iOS devices Computers without the limitations of iTunes.
     </description>
     <projectUrl>https://imazing.com/</projectUrl>
-  <packageSourceUrl>https://github.com/MANICX100/chocolatey/tree/master/imazing</packageSourceUrl>
+    <packageSourceUrl>https://github.com/MANICX100/chocolatey/tree/master/imazing</packageSourceUrl>
     <iconUrl>https://rawcdn.githack.com/MANICX100/chocolatey/e8893bd51ebbba471b4745262326770198db04d7/imazing/logo.svg</iconUrl>
     <tags>ios imazing itunes</tags>
     <copyright>DigiDNA</copyright>
@@ -21,8 +21,8 @@ iMazing is mobile device management software that allows users to transfer files
 #### Program
 * [News](https://imazing.com/blog)
     </releaseNotes>
-  <dependencies>
-    <dependency id="dotnetfx" />
+    <dependencies>
+      <dependency id="dotnetfx" />
     </dependencies>
   </metadata>
   <files>
