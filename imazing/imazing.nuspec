@@ -17,10 +17,7 @@ iMazing is mobile device management software that allows users to transfer files
     <copyright>DigiDNA</copyright>
     <licenseUrl>https://imazing.com/licensing-policy</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <releaseNotes>
-#### Program
-* [News](https://imazing.com/blog)
-    </releaseNotes>
+    <releaseNotes>https://downloads.imazing.com/windows/iMazing/2.15.7/release-notes.html</releaseNotes>
 	<dependencies>
 	  <dependency id="dotnetfx" />
     </dependencies>
