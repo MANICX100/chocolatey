@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">  
+  <metadata>
+    <id>imazing</id>
+    <title>imazing</title>
+    <version>2.15.5.0</version>
+    <authors>DigiDNA</authors>
+    <owners>MANICX100</owners>
+    <summary>iMazing is mobile device management software that allows users to transfer files and data between iOS devices Computers without the limitations of iTunes.</summary>
+    <description>
+iMazing is mobile device management software that allows users to transfer files and data between iOS devices Computers without the limitations of iTunes.
+    </description>
+    <projectUrl>https://imazing.com/</projectUrl>
+	<packageSourceUrl>https://github.com/MANICX100/chocolatey/tree/master/imazing</packageSourceUrl>
+    <iconUrl>https://rawcdn.githack.com/MANICX100/chocolatey/e8893bd51ebbba471b4745262326770198db04d7/imazing/logo.svg</iconUrl>
+    <tags>ios imazing itunes</tags>
+    <copyright>DigiDNA</copyright>
+    <licenseUrl>https://imazing.com/licensing-policy</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* [News](https://imazing.com/blog)
+    </releaseNotes>
+	<dependencies>
+	  <dependency id="dotnetfx" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
