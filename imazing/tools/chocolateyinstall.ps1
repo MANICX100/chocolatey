@@ -2,8 +2,8 @@
 $installerType = 'exe'
 $silentArgs = '/VERYSILENT'
 $toolsDir     = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url = 'https://downloads.imazing.com/windows/iMazing/2.15.10/iMazing_2.15.10.exe'
-$checksum = '453226ac9bf1e0fe7ee986898c9e7acc3992e8e48df118f849c902afcc5d85f4'
+$url = 'https://downloads.imazing.com/windows/iMazing/2.16.2/iMazing_2.16.2.exe'
+$checksum = 'dec43229882994b22c9e4304df3f4b1a25b662f5a35dfe9f991aee5719ff5de1'
 $checksumType = 'sha256'
 $validExitCodes = @(0)
  
