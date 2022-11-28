@@ -20,7 +20,6 @@ Like Gemini, Lagrange has been designed with minimalism in mind. It depends on a
     <packageSourceUrl>https://github.com/MANICX100/chocolatey/tree/master/lagrange/</packageSourceUrl>
     <bugTrackerUrl>https://github.com/skyjake/lagrange/issues/</bugTrackerUrl>
     <docsUrl>https://gmi.skyjake.fi/lagrange/</docsUrl>
-     <mailingListUrl>mailto://jaakko.keranen@iki.fi</mailingListUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <releaseNotes>
 #### Program
