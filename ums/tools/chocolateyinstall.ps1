@@ -1,8 +1,8 @@
 ﻿$packageName = 'ums'
 $installerType = 'exe' 
 $silentArgs = '/S'
-$url = 'https://github.com/UniversalMediaServer/UniversalMediaServer/releases/download/13.6.0/UMS-13.6.0.exe'
-$checksum = '76a03286c0fb4c30ea5c5f8da8d4792856c8a7ca8506ce48538b52bc4b4d6795'
+$url = 'https://github.com/UniversalMediaServer/UniversalMediaServer/releases/download/13.7.0/UMS-13.7.0.exe'
+$checksum = '6a938d78be7c4f4a86fddc6b2417eaff2758a40c06b4617717ef4a2a0e9536b4'
 $checksumType = 'sha256'
 $validExitCodes = @(0)
  
