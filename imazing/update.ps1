@@ -21,14 +21,18 @@ function global:au_SearchReplace {
 }
 
 function global:au_GetLatest {
-    $sparkleUri = 'https://downloads.imazing.com/com.DigiDNA.iMazing2Windows.xml'
+    $sparkleUri = 'https://downloads.imazing.com/com.DigiDNA.iMazing3Windows.xml'
     $userAgent = 'Update checker of Chocolatey Community Package ''imazing'''
     $page = Invoke-WebRequest -Uri $sparkleUri -UserAgent $userAgent -UseBasicParsing
     $xmlDocument = [xml] $page.Content
     $latestReleaseItem = $xmlDocument.rss.channel.item[0]
 
     $marketingVersion = $latestReleaseItem.enclosure.shortVersionString
-    $productVersion = "$($marketingVersion.ToString()).0"
+    if (([regex]::Matches($marketingVersion, "\.")).count -gt 2) {
+        $productVersion = "$($marketingVersion.ToString())00"
+    } else {
+        $productVersion = "$($marketingVersion.ToString()).0"
+    }
 
     return @{ 
         Url32 = $latestReleaseItem.enclosure.url
