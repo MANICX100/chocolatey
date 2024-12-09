@@ -1,8 +1,8 @@
 ﻿$packageName = 'imazing'
 $installerType = 'exe'
 $silentArgs = '/VERYSILENT /CLOSEAPPLICATIONS /SUPPRESSMSGBOXES /DONTSTART'
-$url = 'https://downloads.imazing.com/windows/iMazing/3.0.4/iMazing_3.0.4.exe'
-$checksum = 'eec727424cb75776a0ce22f85e5281f2ab1c3395c4a16f4279c4ce9bfad5f9fe'
+$url = 'https://downloads.imazing.com/windows/iMazing/3.0.6/iMazing_3.0.6.exe'
+$checksum = '76c97ce8f099642ed932ec5179f3fb532d552341a492479e91ea27597e33ac96'
 $checksumType = 'sha256'
 $validExitCodes = @(0)
  
